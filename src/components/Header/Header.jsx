@@ -49,7 +49,7 @@ const Header = () => {
                     user ? <>
                         <p className="text-white mr-3">{user.email}</p>
                         <button className="btn" onClick={handleLogoutuser}>Logout</button>
-                    </> : <NavLink className="btn btn-md" to='/login'><button></button>Login</NavLink>
+                    </> : <Link className="btn btn-md" to='/login'><button></button>Login</Link>
                 }
 
             </div>
